@@ -8,8 +8,8 @@ Android Application Prototype to make devices interaction more intutive by indtr
 Please note that the app on the Play Store is not always the latest version.  
 If you'd like to install the latest one, install it manually with Gradle.
 
-
-### [![FOLLOW ON XDA](http://www.appsfuze.com/static/images/apps/e/8/a/e8abf95f-cc53-e011-854c-00237de2db9e.png)](http://forum.xda-developers.com/android/apps-games/app-gesture-detection-camera-best-t3095721)
+###Follow on XDA
+[![FOLLOW ON XDA](http://www.appsfuze.com/static/images/apps/e/8/a/e8abf95f-cc53-e011-854c-00237de2db9e.png)](http://forum.xda-developers.com/android/apps-games/app-gesture-detection-camera-best-t3095721)
 
 ### What is Proximity Sensor? 
   Its a sensor generally used to turn screen off when you are attending a call to avoid screen touches by your face or cheeks.
