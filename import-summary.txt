@@ -1,0 +1,82 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Risky Project Location:
+-----------------------
+The tools *should* handle project locations in any directory. However,
+due to bugs, placing projects in directories containing spaces in the
+path, or characters like ", ' and &, have had issues. We're working to
+eliminate these bugs, but to save yourself headaches you may want to
+move your project to a location where this is not a problem.
+D:\R & D Projects\HandGesture
+    --- -                    
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\.name
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\scopes\
+* .idea\scopes\scope_settings.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* DHCS_Project.eml
+* DHCS_Project.iml
+* ic_launcher-web.png
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+* src\com\nik\dhcs_project\.idea\.name => app\src\main\resources\com\nik\dhcs_project\.idea\.name
+* src\com\nik\dhcs_project\.idea\compiler.xml => app\src\main\resources\com\nik\dhcs_project\.idea\compiler.xml
+* src\com\nik\dhcs_project\.idea\copyright\profiles_settings.xml => app\src\main\resources\com\nik\dhcs_project\.idea\copyright\profiles_settings.xml
+* src\com\nik\dhcs_project\.idea\dhcs_project.iml => app\src\main\resources\com\nik\dhcs_project\.idea\dhcs_project.iml
+* src\com\nik\dhcs_project\.idea\encodings.xml => app\src\main\resources\com\nik\dhcs_project\.idea\encodings.xml
+* src\com\nik\dhcs_project\.idea\misc.xml => app\src\main\resources\com\nik\dhcs_project\.idea\misc.xml
+* src\com\nik\dhcs_project\.idea\modules.xml => app\src\main\resources\com\nik\dhcs_project\.idea\modules.xml
+* src\com\nik\dhcs_project\.idea\scopes\scope_settings.xml => app\src\main\resources\com\nik\dhcs_project\.idea\scopes\scope_settings.xml
+* src\com\nik\dhcs_project\.idea\vcs.xml => app\src\main\resources\com\nik\dhcs_project\.idea\vcs.xml
+* src\com\nik\dhcs_project\.idea\workspace.xml => app\src\main\resources\com\nik\dhcs_project\.idea\workspace.xml
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

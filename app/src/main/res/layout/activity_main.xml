@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget45"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/buttonlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="right"
+        >
+
+        <Button
+            android:id="@+id/button_help"
+            android:layout_width="63dp"
+            android:layout_height="55dp"
+           android:visibility="gone"
+             android:gravity="right"
+            android:background="@drawable/help"
+            android:paddingRight="20dp" />
+
+    </LinearLayout>
+    
+    <TableLayout
+        android:id="@+id/tt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_horizontal|clip_horizontal" >
+
+            <ToggleButton
+                android:id="@+id/toggle_On"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/test_sensor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/LinearLayout11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:gravity="center" >
+
+             <TextView
+        android:id="@+id/steps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Click on Turn On Button to start the service"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+            
+
+            <TextView
+                android:id="@+id/test_sensor1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+        </LinearLayout>
+    </TableLayout>
+
+   
+    <TableLayout
+        android:id="@+id/widget36"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp" >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content" >
+
+
+
+            <CheckBox
+                android:id="@+id/check_wifi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:button="@drawable/custom_check_wifi"
+                android:text="Wifi"
+                android:visibility="visible" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content" >
+
+
+
+            <CheckBox
+                android:id="@+id/check_unlock"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:button="@drawable/custom_check_lock"
+                android:text="Unlock"
+                android:visibility="visible" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <CheckBox
+                android:id="@+id/check_blue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:button="@drawable/custom_check_bluetooth"
+                android:text="Bluetooth"
+                android:visibility="visible" />
+        </TableRow>
+    </TableLayout>
+
+    <CheckBox
+        android:id="@+id/check_call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@drawable/custom_check_call"
+        android:layout_weight="0.5"
+        android:text="Call"
+        android:visibility="gone" />
+    <CheckBox
+        android:id="@+id/check_music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@drawable/custom_check_music"
+        android:text="Music"
+        android:layout_weight="0.5"
+        android:visibility="gone" />
+</TableLayout>
