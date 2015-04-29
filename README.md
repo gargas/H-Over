@@ -9,6 +9,8 @@ Please note that the app on the Play Store is not always the latest version.
 If you'd like to install the latest one, install it manually with Gradle.
 
 
+### [![FOLLOW ON XDA()]] (http://forum.xda-developers.com/android/apps-games/app-gesture-detection-camera-best-t3095721)
+
 ### What is Proximity Sensor? 
   Its a sensor generally used to turn screen off when you are attending a call to avoid screen touches by your face or cheeks.
   Its generally located near earpiece of the device.
