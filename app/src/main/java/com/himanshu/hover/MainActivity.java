@@ -29,7 +29,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ToggleButton;
 
-
+/**
+Please note that many features music feature couldnot be implemented at the time of submission due to lack of time. 
+*/
 public class MainActivity extends Activity implements SensorEventListener{
 
 	ToggleButton toggle_main;
